@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/user/Documents/fpga/lcd_text_p2/tb_top_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/tb_top/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/txd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txd</obj_property>
+      <obj_property name="ObjectShortName">txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/rxd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxd</obj_property>
+      <obj_property name="ObjectShortName">rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/ard_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ard_reset</obj_property>
+      <obj_property name="ObjectShortName">ard_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/duo_sw1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">duo_sw1</obj_property>
+      <obj_property name="ObjectShortName">duo_sw1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/w2c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w2c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">w2c[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/w2d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w2d[15:0]</obj_property>
+      <obj_property name="ObjectShortName">w2d[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/arduino" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">arduino[21:0]</obj_property>
+      <obj_property name="ObjectShortName">arduino[21:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/buttons" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">buttons[5:0]</obj_property>
+      <obj_property name="ObjectShortName">buttons[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/audio_left" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_left</obj_property>
+      <obj_property name="ObjectShortName">audio_left</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/audio_right" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_right</obj_property>
+      <obj_property name="ObjectShortName">audio_right</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/ud" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ud</obj_property>
+      <obj_property name="ObjectShortName">ud</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/rl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rl</obj_property>
+      <obj_property name="ObjectShortName">rl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/enab" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enab</obj_property>
+      <obj_property name="ObjectShortName">enab</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/lcdctl0/vcurrent" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">vcurrent</obj_property>
+      <obj_property name="ObjectShortName">vcurrent</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/lcdctl0/hcurrent" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">hcurrent</obj_property>
+      <obj_property name="ObjectShortName">hcurrent</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/vsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/hsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/ck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ck</obj_property>
+      <obj_property name="ObjectShortName">ck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r[5:0]</obj_property>
+      <obj_property name="ObjectShortName">r[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/g" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">g[5:0]</obj_property>
+      <obj_property name="ObjectShortName">g[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[5:0]</obj_property>
+      <obj_property name="ObjectShortName">b[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/lcdctl0/currch" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">currch</obj_property>
+      <obj_property name="ObjectShortName">currch</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/lcdctl0/currx" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">currx</obj_property>
+      <obj_property name="ObjectShortName">currx</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/lcdctl0/curry" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">curry</obj_property>
+      <obj_property name="ObjectShortName">curry</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
